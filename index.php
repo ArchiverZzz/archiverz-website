@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ArchiverZ | Portfolio</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.php" class="logo-link">
+                <h1 class="nav-link logo">Archiver<span>Z</span></h1>
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Digital Restorer & Jazz Enthusiast 🥁</h2>
+                <p>Hi, I'm ArchiverZ, I remaster classic jazz performances in 4K and create digital art inspired by music and motion.</p>
+                <a href="#projects" class="btn">See my work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I’m passionate about music, drumming, and digital restoration.
+                My goal is to bring legendary jazz performances back to life through high-quality remasters and creative visuals.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="card">
+                    <img src="./assets/images/[ 4K 60FPS Audio Remaster ] Buddy Rich Peach & Teach Norway 1970.jpg" alt="Project thumbnail">
+                    <h3>Buddy Rich 1982 Montreal Jazz Fest</h3>
+                    <p>4K remaster with restored color, detail, and frame interpolation.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/[ 4K 60FPS Audio Remaster ] Buddy Rich West Side Story Live at Praha 1984.jpg" alt="Project thumbnail">
+                    <h3>Steve Hawkins 3D Scene</h3>
+                    <p>Blender-rendered cyber-jazz environment inspired by AGGDM universe.</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/[ 4K 60FPS Audio Remaster ] Buddy Rich Funk City Ola 1978.jpg" alt="Project thumbnail">
+                    <h3>Topaz AI Workflow</h3>
+                    <p>Demonstration of my remastering process and color correction pipeline.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to collaborate, feel free to reach out!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </section>
+
+    <section class="section hidden">
+
+        <h1>Projects</h1>
+
+    </section>
+
+    <section class="section hidden">
+
+        <h1>Contact</h1>
+
+    </section>
+
+    <section class="section hidden">
+
+        <h1>About</h1>
+
+    </section>
+
+    <footer>
+        <p>© 2025 ArchiverZ. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
