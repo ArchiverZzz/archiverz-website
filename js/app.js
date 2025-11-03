@@ -6,9 +6,13 @@ $navLinks.forEach((link, index) => {
         e.preventDefault();
         $sections.forEach((page, i) => {
             if (i === index) {
-                page.classList.remove('hidden');
+                setTimeout(() => {
+                    page.classList.remove('hidden');
+                }, 300);
             } else {
-                page.classList.add('hidden');
+                setTimeout(() => {
+                    page.classList.add('hidden');
+                }, 300);
             }
         })
     })
