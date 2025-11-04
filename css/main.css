@@ -123,6 +123,16 @@ section {
     text-align: center;
 }
 
+.section {
+    display: none;
+    opacity: 0;
+}
+.section:first-child {
+    display: block;
+    opacity: 1;
+}
+
+
 #projects .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -204,4 +214,30 @@ footer {
     .nav-links {
         display: none;
     }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.fade-out {
+    animation: fadeOut 1s ease-in-out;
 }
